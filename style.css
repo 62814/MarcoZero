@@ -1,0 +1,38 @@
+/* importar as fontes poppins e lobster (google fonts)*/
+@import url('https://fonts.googleapis.com/css2?family=lobster&family=poppins:wght@400;700&display=swap');
+
+/*Definição de Variáveis */
+:root{
+    /* Fontes*/
+    --fonte-principal: "poppins", sans-serif;
+    --fonte-segundaria: "lobster", sans-serif;
+
+
+    /* Paleta de cores */
+    --cor-principal: #747dff;
+    --cor-destaque: #ffad32;
+    --cor-principal-alpha: #747dff3c;
+    --cor-principal-gradiente-01: #ffe7c2;
+    --cor-principal-gradiente-02: #bdacff;
+    --cor-01: #f9f9f9;
+    --cor-02: #b8c0c7;
+    --cor-03: #767f86;
+    --cor-04: #3c4852;
+    --cor-05: #00000043;
+}
+/* limpa as configurações padrão dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+}
+
+body{
+    color: var(--cor-04);
+}
