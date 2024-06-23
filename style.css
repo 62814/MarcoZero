@@ -40,6 +40,12 @@ body{
     color: var(--cor-04);
 }
 
+.img{
+    height: 20%;
+    width: 50%;
+    object-fit: cover;
+}
+
 /*-- Barra de navegacao */
 
 nav {
